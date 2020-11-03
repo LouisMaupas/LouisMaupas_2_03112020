@@ -1,0 +1,45 @@
+/* FLEXBOX*/
+
+.df {
+    display: flex;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-rev {
+    flex-direction: row-reverse;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col-rev {
+    flex-direction: column-reverse;
+}
+
+.txt-c {
+	text-align: center;
+}
+
+.txt-j {
+	text-align: justify;
+}
+
+.align-c {
+    align-content: center;
+}
+
+.align-fs {
+    align-content: flex-start;
+   }
