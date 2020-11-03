@@ -1,4 +1,18 @@
+.bgc {
+    background-color: aqua;
+}
+
+/* POLICE */
+
+.bold {
+    font-weight: bold;
+}
+
 /* GENERAL */
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 1440px;
     margin-left: auto;
@@ -25,6 +39,14 @@ ul {
     margin-top: 1em;
 }
 
+/* FOOTER */ 
+
+.footer {
+    padding-left: 50px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
 
 
 /* FLEXBOX*/
@@ -47,6 +69,10 @@ ul {
 
 .jc-sb {
     justify-content: space-between;
+}
+
+.jc-s {
+    justify-content: start;
 }
 
 .flex-row {
