@@ -75,34 +75,42 @@ ul {
     justify-content: start;
 }
 
-.flex-row {
+.fd-r {
     flex-direction: row;
 }
 
-.flex-row-rev {
+.fd-rr {
     flex-direction: row-reverse;
 }
 
-.flex-col {
+.fd-c {
     flex-direction: column;
 }
 
-.flex-col-rev {
+.fd-cr {
     flex-direction: column-reverse;
 }
 
-.txt-c {
+.ta-c {
 	text-align: center;
 }
 
-.txt-j {
+.ta-j {
 	text-align: justify;
 }
 
-.align-c {
+.ac-fe {
+    align-content: flex-end;
+}
+
+.ac-c {
     align-content: center;
 }
 
-.align-fs {
+.ac-fs {
     align-content: flex-start;
    }
+
+.fw-w {
+    flex-wrap: wrap;
+}
