@@ -39,10 +39,24 @@ ul {
     margin-top: 1em;
 }
 
+/* BODY */
+
+#body-hosting-popular{
+    margin-left: 5em;
+}
+
+.bloc-body-hosting {
+    border-radius: 25px;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
 /* FOOTER */ 
 
 .footer {
     padding-left: 50px;
+    padding-right: 360px;
     padding-bottom: 60px;
     padding-top: 50px;
 }
