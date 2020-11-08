@@ -41,16 +41,22 @@ ul {
 
 /* BODY */
 
-#body-hosting-popular{
-    margin-left: 5em;
-}
-
 .bloc-body-hosting {
-    border-radius: 25px;
+    border-radius: 1em;
     padding-right: 3em;
     padding-left: 3em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
+
+.activities {
+    margin: 1em;
+}
+
+.activity {
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
+}
+
 
 /* FOOTER */ 
 
