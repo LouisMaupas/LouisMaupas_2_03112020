@@ -50,6 +50,23 @@ body {
 }
 
 /* BODY */
+
+#body-search-btn {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-top-right-radius: .75em;
+    border-bottom-right-radius: .75em;
+}
+
+#body-search-btn:hover{
+    cursor: pointer;
+    background-color: #064db8;
+}
  
 #body ul li {
     background-color: lawngreen;
@@ -86,12 +103,13 @@ body {
 .filter {
     border: solid;
     border-radius: 3em;
-    border-color: #36313193;
+    border-color: #DEEBFF;
     padding: 0.5em;
     margin: 0.5em;
 }
 
 .filter:hover {
+    cursor: pointer;
     background-color: #DEEBFF;
 }
 
