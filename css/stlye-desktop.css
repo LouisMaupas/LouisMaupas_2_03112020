@@ -83,6 +83,17 @@ body {
     box-shadow: 4px 6px 15px -3px #F2F2F2;
 }
 
+.filter {
+    border: solid;
+    border-radius: 3em;
+    border-color: #36313193;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.filter:hover {
+    background-color: #DEEBFF;
+}
 
 /* FOOTER */ 
 
