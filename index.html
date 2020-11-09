@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\stlye-desktop.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="./css/style-pad.css" /> 
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="./css/style-phone.css" /> 
+
     <title>Reservia</title>
 </head>
 <body>
     <div class="container">
-        <div class="header df">
-            <img src="Ressources\logo\Reservia.svg" alt="logo reservia" />
+        <div id="header" class="df">
+            <img src="Ressources/logo/big/Reservia.svg" alt="logo reservia" />
             <div id="menu" class="df jc-sa">
-                <span>Hégergements</span>
-                <span>Activités</span>
-                <span>S'inscrire</span>
+                <a>Hégergements</a>
+                <a>Activités</a>
+                <a>S'inscrire</a>
             </div>
         </div>
 
-        <div>
+        <div id="body">
             <div>
                 <p>
                     <span class="bold">Trouver votre hébergement pour des vacances de rêve</span><br/>
                     En plein centre ville ou en pleine nature<br/>
                 </p>
                 <p>
-                    <span class="bold">Marseille, France</span><button>Recherche</button><br/>
-                </p>
-                <p>
+                    <img src="./Ressources/logo/gps.png" alt="logo" /><input type="search" name="search" id="search" value="Marseille, France" /><button>Rechercher</button><br/>
+                </p> 
+                <div>
                     <ul>
-                        <li>Filtres</li>
-                        <li><p><img src="./Ressources/logo/dollar.png" alt="logo" /> <span class="bold">Economique</span></p></li>
-                        <li><p><img src="./Ressources/logo/family.png" alt="logo" /> <span class="bold">Familial</span></p></li>
-                        <li><p><img src="./Ressources/logo/hearth.png" alt="logo" /> <span class="bold">Romantique</span></p></li>
-                        <li><p><img src="./Ressources/logo/dog.png" alt="logo" /> <span class="bold">Animaux autorisés</span></p></li>
+                        <li class="search-filters"><span class="bold">Filtres</span></li>
+                        <li class="search-filters"><p><img src="./Ressources/logo/dollar.png" alt="logo" /> <span class="bold">Economique</span></p></li>
+                        <li class="search-filters"><p><img src="./Ressources/logo/family.png" alt="logo" /> <span class="bold">Familial</span></p></li>
+                        <li class="search-filters"><p><img src="./Ressources/logo/hearth.png" alt="logo" /> <span class="bold">Romantique</span></p></li>
+                        <li class="search-filters"><p><img src="./Ressources/logo/dog.png" alt="logo" /> <span class="bold">Animaux autorisés</span></p></li>
                     </ul>
-                    <br/>
-                </p>
+                </div> 
                 <p>
-                    Plus de 500 logements sont disponbiles dans cette ville
+                    <img src="#" alt="logo"/>Plus de 500 logements sont disponbiles dans cette ville
                 </p>
             </div>
             <br/>
@@ -46,9 +48,11 @@
                     <span class="bold" >Hébergements à <span>Marseille</span></span>
                     <div class="df">
                         <p class="df fd-c">
+                            <a href="https://www.google.com/" target="_blank">
                             <a target="_blank" href="Ressources/hebergements/large/cannebiere.jpg"><img src="./Ressources/hebergements/miniatures/cannebiere-mini.jpg" alt="photo de la chambre 1" title="Cliquez pour agrandir l'image" /></a>
                             <span class="bold">Auberge de la Cannebière</span>
                             Nuit à partir de 25€
+                            </a>
                         </p>
                         <p class="df fd-c">
                             <a target="_blank" href="Ressources/hebergements/large/port.jpg"><img src="./Ressources/hebergements/miniatures/port-mini.jpg" alt="photo de la chambre 2" title="Cliquez pour agrandir l'image" /></a>
@@ -160,7 +164,7 @@
             </div>
         </div>
 
-        <div class="footer bloc df jc-sb">
+        <div id="footer" class="bloc df jc-sb">
             <div>
                 <span class="bold">A propos</span>
                 <ul>

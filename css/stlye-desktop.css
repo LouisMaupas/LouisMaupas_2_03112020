@@ -1,16 +1,11 @@
-.bgc {
-    background-color: aqua;
-}
-
-/* POLICE */
-
-.bold {
-    font-weight: bold;
-}
 
 /* GENERAL */
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .container {
@@ -22,13 +17,7 @@ body {
 }
 
 .bloc {
-    background-color: rgb(242, 242, 242);
-}
-
-ul {
-    list-style:none;
-    margin-left:0;
-    padding-left:0;
+    background-color: #F2F2F2;
 }
 
 
@@ -39,9 +28,28 @@ ul {
     margin-top: 1em;
 }
 
-/* BODY */
+#menu a:hover {
+    color: blue;
+    border-top: solid;
+}
 
-ul
+/* BODY */
+ 
+#body ul li {
+    background-color: lawngreen;
+    display: inline;
+    color: tomato;
+}
+
+.search-filters {
+    background-color: lawngreen;
+    display: inline;
+    color: tomato;
+}
+
+.search-filters:hover {
+    background-color: grey;
+}    
 
 .bloc-body-hosting {
     border-radius: 1em;
@@ -55,18 +63,24 @@ ul
 }
 
 .activity {
-    background-color: white;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
+    border-radius: 1em;
+    box-shadow: 4px 6px 15px -3px #F2F2F2;
 }
 
 
 /* FOOTER */ 
 
-.footer {
+#footer {
     padding-left: 50px;
     padding-right: 360px;
     padding-bottom: 60px;
     padding-top: 50px;
+}
+
+#footer ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
 }
 
 
