@@ -1,4 +1,3 @@
-
 /* GENERAL */
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -8,13 +7,16 @@ body {
     font-weight: bold;
 }
 
+.thin {
+    font-weight: normal;
+}
+
 .container {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 2em;
 }
 
 .bloc {
@@ -67,28 +69,19 @@ body {
     cursor: pointer;
     background-color: #064db8;
 }
- 
-#body ul li {
-    background-color: lawngreen;
-    display: inline;
-    color: tomato;
-}
+  
 
-.search-filters {
-    background-color: lawngreen;
-    display: inline;
-    color: tomato;
-}
-
-.search-filters:hover {
-    background-color: grey;
-}    
-
-.bloc-body-hosting {
+.body-hosting {
     border-radius: 1em;
     padding-right: 3em;
     padding-left: 3em;
     padding-top: 2em;
+    margin: 1em;
+}
+
+.body-hosting a {
+    text-decoration: none;
+    color: black;
 }
 
 .activities {
@@ -113,11 +106,38 @@ body {
     background-color: #DEEBFF;
 }
 
-.thumbnail {
+.hosting-thumbnail {
     overflow: hidden;
+    background-color: white;
     width: 260px; 
-    padding: 1em;
+    padding: 0.3em;
+    margin: 1em;
+    border-radius: 2em;
+    border-width: 1em; /* NE FONCTIONNE PAS ??? */ 
 }
+
+.hosting-thumbnail-text {
+    padding-left: 1em;
+}
+
+.popular-thumbnail {
+    overflow: hidden;
+    background-color: white;
+    width: 260px; 
+    border-radius: 2em;
+    border-width: 1em; /* NE FONCTIONNE PAS ??? */ 
+    padding-left: 1em;
+}
+
+.activity-thumbnail {
+    /* a c/c */
+}
+
+.show-more:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.425);
+}
+
 
 /* FOOTER */ 
 
