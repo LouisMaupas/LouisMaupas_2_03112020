@@ -128,8 +128,8 @@ body {
     overflow: hidden;
     background-color: white;
     width: 260px; 
+    height: 150px;
     border-radius: 2em;
-    border-width: 1em; /* NE FONCTIONNE PAS ??? */ 
     padding-left: 1em;
     margin-bottom: 2em;
 }
