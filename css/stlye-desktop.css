@@ -37,6 +37,7 @@ body {
 }
 
 #menu a:hover {
+    
     color: #0065FC;
     /*padding-top: 2em;*/
     border-top: solid;
