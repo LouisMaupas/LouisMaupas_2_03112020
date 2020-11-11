@@ -34,14 +34,17 @@ body {
 #menu a {
     text-decoration: none;
     color: black;
+    padding-top: 30px;
+    border-top: solid;
+    border-color: white;
+    font-weight: bold;
 }
 
 #menu a:hover {
-    
+    border-color: #0065FC;
     color: #0065FC;
-    /*padding-top: 2em;*/
-    border-top: solid;
 }
+
 
 #menu a:checked {
     text-decoration: black;
