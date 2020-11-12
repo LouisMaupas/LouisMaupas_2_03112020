@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1em;
@@ -56,7 +56,6 @@ body {
 }
 
 /* BODY */
-
 #body-search-btn {
     background-color: #0065FC;
     color: white;
@@ -74,6 +73,13 @@ body {
     background-color: #064db8;
 }
   
+#body-hosting-marseille {
+    width: 100%; /* A FAIRE */
+}
+
+#body-hosting-popular {
+    width: 100%; /* A FAIRE */
+ }
 
 .body-hosting {
     border-radius: 1em;
@@ -113,15 +119,22 @@ body {
 .hosting-thumbnail {
     overflow: hidden;
     background-color: white;
-    width: 260px; 
+    width: 260px;  /* ATTENTION LA ET LA */
+    max-height: 150px; /* ATTENTION LA ET LA */
     padding: 0.3em;
     margin: 1em;
-    border-radius: 2em;
-    border-width: 1em; /* NE FONCTIONNE PAS ??? */ 
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-width: 1em; 
+    object-fit: scale-down;
 }
 
 .hosting-thumbnail-text {
     padding-left: 1em;
+}
+
+.hosting-thumbnail-photo {
+    object-fit: scale-down;
 }
 
 .popular-thumbnail {
