@@ -150,9 +150,9 @@ body {
 .popular-thumbnail {
     background-color: white;
     width: 260px; 
-    height: 150px;
-    padding: 0.3em;
+    height: auto;
     margin: 1em;
+    padding-top: 5px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -166,11 +166,11 @@ body {
 }
 
 .popular-thumbnail-photo {
-    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     padding: 1px;
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 120px;
     object-fit: cover;
 }
 
