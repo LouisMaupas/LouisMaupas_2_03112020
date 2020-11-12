@@ -117,16 +117,16 @@ body {
 }
 
 .hosting-thumbnail {
-    overflow: hidden;
     background-color: white;
     width: 260px;  /* ATTENTION LA ET LA */
-    max-height: 150px; /* ATTENTION LA ET LA */
+    height: 175px; /* ATTENTION LA ET LA */
     padding: 0.3em;
     margin: 1em;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     border-width: 1em; 
-    object-fit: scale-down;
 }
 
 .hosting-thumbnail-text {
@@ -134,7 +134,18 @@ body {
 }
 
 .hosting-thumbnail-photo {
-    object-fit: scale-down;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 1px;
+    width: 260px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.hosting-thumbnail-photo img {
+    /*object-fit: contain;*/
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 .popular-thumbnail {
