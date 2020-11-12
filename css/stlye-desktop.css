@@ -13,8 +13,8 @@ body {
 
 .container {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: auto;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -26,8 +26,9 @@ body {
 
 /* HEADER */
 #menu {
-    width: 440px;
-    margin-left: 1000px;
+    width: 100%;
+    max-width: 440px;
+    margin-left: auto;
     margin-top: 1em;
 }
 
@@ -74,19 +75,23 @@ body {
 }
   
 #body-hosting-marseille {
-    width: 100%; /* A FAIRE */
+    width: 65%; 
+    padding-right: 5em;
+    padding-left: 2em;
+    padding-bottom: 5em;
 }
 
 #body-hosting-popular {
-    width: 100%; /* A FAIRE */
+    width: 21%; 
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-top: 2em;
  }
 
 .body-hosting {
     border-radius: 1em;
-    padding-right: 3em;
-    padding-left: 3em;
     padding-top: 2em;
-    margin: 1em;
+    margin: auto;
 }
 
 .body-hosting a {
@@ -118,8 +123,8 @@ body {
 
 .hosting-thumbnail {
     background-color: white;
-    width: 260px;  /* ATTENTION LA ET LA */
-    height: 175px; /* ATTENTION LA ET LA */
+    width: 260px; 
+    height: 175px; 
     padding: 0.3em;
     margin: 1em;
     border-top-right-radius: 20px;
@@ -142,25 +147,31 @@ body {
     object-fit: cover;
 }
 
-.hosting-thumbnail-photo img {
-    /*object-fit: contain;*/
-    /*max-width: 100%;
-    height: auto;*/
-}
-
 .popular-thumbnail {
-    overflow: hidden;
     background-color: white;
     width: 260px; 
     height: 150px;
-    border-radius: 2em;
-    padding-left: 1em;
-    margin-bottom: 2em;
+    padding: 0.3em;
+    margin: 1em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 1em; 
 }
 
 .popular-thumbnail-text {
     padding-top: 1em ; 
     margin-left: 0.5em; 
+}
+
+.popular-thumbnail-photo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 1px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .show-more:hover {
