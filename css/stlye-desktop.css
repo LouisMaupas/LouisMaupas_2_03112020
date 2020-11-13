@@ -198,6 +198,11 @@ body {
     background-color: #DEEBFF;
 }
 
+.filter-logo {
+    background-color: green;
+    border-radius: 50%
+}
+
 /* FOOTER */ 
 
 #footer {
@@ -276,6 +281,19 @@ body {
 .ac-fs {
     align-content: flex-start;
    }
+
+.as-s {
+    align-self: flex-start;
+} 
+
+.as-c {
+    align-self: center;
+}
+
+.as-e {
+    align-self: flex-end;
+}
+
 
 .fw-w {
     flex-wrap: wrap;
