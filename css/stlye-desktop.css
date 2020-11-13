@@ -75,10 +75,9 @@ body {
 }
   
 #body-hosting-marseille {
-    width: 65%; 
+    width: 60%; 
     padding-right: 5em;
     padding-left: 2em;
-    padding-bottom: 5em;
 }
 
 #body-hosting-popular {
@@ -87,11 +86,13 @@ body {
     padding-left: 2em;
   }
 
+
 .body-hosting {
     border-radius: 1em;
     padding-top: 2em;
     margin-left: auto;
     margin-right: auto;
+    height: 525px;
 }
 
 .body-hosting a {
@@ -126,29 +127,30 @@ body {
 }
 
 #body-hosting-popular-results {
-    background-color: rgba(0, 128, 0, 0.288);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .popular-thumbnail {
     background-color: white;
-    width: 260px; 
+    width: 300px; 
     height: 126px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-width: 1em; 
+    padding-top: 3px;
+    padding-left: 3px;
 }
 
 .popular-thumbnail:nth-child(1) {
-/**/
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .popular-thumbnail:nth-child(2) {
-/**/
+    margin-bottom: 2em;
 }
 
 .popular-thumbnail:nth-child(3) {
