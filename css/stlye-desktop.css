@@ -74,6 +74,20 @@ body {
     cursor: pointer;
     background-color: #064db8;
 }
+
+
+.filter {
+    border: solid;
+    border-radius: 3em;
+    border-color: #DEEBFF;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.filter:hover {
+    cursor: pointer;
+    background-color: #DEEBFF;
+}
   
 #body-hosting-marseille {
     width: 60%; 
@@ -177,8 +191,40 @@ body {
     color: rgba(0, 0, 0, 0.425);
 }
 
+/* activités à Marseille */
+
+#body-activity {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+
+}
+
 .activities {
     margin: 1em;
+    height: 500px;
+    background-color: #F2F2F2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.activities-double {
+    padding-top: 5em;
+    margin: 1em;
+    height: 500px;
+    background-color: #F2F2F2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.activities a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .activity {
@@ -186,17 +232,30 @@ body {
     box-shadow: 4px 6px 15px -3px #F2F2F2;
 }
 
-.filter {
-    border: solid;
-    border-radius: 3em;
-    border-color: #DEEBFF;
-    padding: 0.5em;
-    margin: 0.5em;
+.activities-thumbnail-big-photo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 325px;
+    height: 450px;
+    object-fit: cover;
 }
 
-.filter:hover {
-    cursor: pointer;
-    background-color: #DEEBFF;
+.activities-thumbnail-text {
+    padding-top: 0.75em;
+    padding-left: 1em;
+}
+
+.activities-thumbnail-little-photo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 325px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#activities-title {
+    padding: 1em;
 }
 
 /* LOGOS */
@@ -220,8 +279,6 @@ body {
     padding-top: 25%;
 }
 
-
-
 /* FOOTER */ 
 
 #footer {
@@ -236,7 +293,6 @@ body {
     margin-left:0;
     padding-left:0;
 }
-
 
 
 /* FLEXBOX*/
