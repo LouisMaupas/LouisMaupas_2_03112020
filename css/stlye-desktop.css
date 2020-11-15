@@ -82,7 +82,6 @@ body {
     background-color: #064db8;
 }
 
-
 .filter {
     border: solid;
     border-radius: 3em;
@@ -181,10 +180,6 @@ body {
     margin-bottom: 2em;
 }
 
-.popular-thumbnail:nth-child(3) {
-/**/
-}
-
 .popular-thumbnail-text {
     padding-top: 1em ; 
     margin-left: 0.5em; 
@@ -224,14 +219,14 @@ body {
 }
 
 .activities-double {
-    padding-top: 5em;
     margin: 1em;
     height: 500px;
-    background-color: #F2F2F2;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+}
+
+.activities-double a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .activities a {
@@ -258,14 +253,37 @@ body {
     padding-left: 1em;
 }
 
+.activities-thumbnail-little {
+    background-color: #F2F2F2;
+    padding-bottom: 1em;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 .activities-thumbnail-little-photo {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     width: 325px;
-    height: 200px;
     object-fit: cover;
 }
 
+.activities-thumbnail-little-photo-one {
+    height: 200px;
+}
+
+.activities-thumbnail-little-photo-two {
+    height: 150px;
+}
+
+.activities-thumbnail-little-photo-three {
+    height: 180px;
+}
+
+.activities-thumbnail-little-photo-four {
+    height: 180px;
+}
 
 #activities-title {
     padding: 1em;
@@ -273,10 +291,6 @@ body {
 
 /* LOGOS */
 
-.filter-logo {
-    background-color: green;
-    border-radius: 50%
-}
 
 #logo-gps {
     background-color: #F2F2F2;
@@ -292,19 +306,30 @@ body {
     padding-top: 25%;
 }
 
+.filter-logo-circle {
+    background-color: #DEEBFF ;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
 /* FOOTER */ 
 
 #footer {
     padding-left: 50px;
     padding-right: 360px;
-    padding-bottom: 60px;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #footer ul {
     list-style:none;
     margin-left:0;
     padding-left:0;
+}
+
+#footer ul li {
+    line-height: 2;
 }
 
 
