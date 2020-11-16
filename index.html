@@ -4,32 +4,40 @@
     <script src="https://kit.fontawesome.com/9405848609.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\stlye-desktop.css"/>
-    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="./css/style-pad.css" /> 
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./css/stlye-desktop.css">
+    <link rel="stylesheet" media="screen and (min-width: 420px) and (max-width: 1399px)" href="./css/style-pad.css" /> 
     <link rel="stylesheet" media="screen and (max-width: 420px)" href="./css/style-phone.css" /> 
     <title>Reservia</title>
 </head>
 <body>
+
     <div class="container">
+
+
+
         <div id="header" class="df">
-            <div id="logo-reservia" ><img src="Ressources/logo/Reservia.svg" alt="logo reservia" /></div>
+            <img src="Ressources/logo/Reservia.svg" alt="logo reservia" />
             <nav id="menu" class="df jc-sa">
                 <a href="#body-hosting">Hégergements</a>
                 <a href="#body-activity">Activités</a>
                 <a href="#"><span id="register">S'inscrire</span></a>
             </nav>
         </div>
+
+
+
+
         <div id="body">
 
             <div id="first-bloc">
                 <p>
                     <span class="bold">Trouver votre hébergement pour des vacances de rêve</span><br/>
-                    En plein centre ville ou en pleine nature<br/>
+                    En plein centre ville ou en pleine nature
                 </p>
                 <div class="df">
                     <div class="df"><div id="logo-gps"><span><i id="logo-gps-pos" class="fas fa-map-marker-alt"></i></span></div></div>
                     <input type="search" name="search" id="search" value="Marseille, France" />
-                    <div id="body-search-btn">Rechercher</div id="body-search-btn"><br/>
+                    <div id="body-search-btn">Rechercher</div>
                     </div> 
 
                 <div class="df">
@@ -68,10 +76,9 @@
                     <span style="color: #0065FC; margin-right: 1em;"><i class="fas fa-info-circle"></i></span>Plus de 500 logements sont disponbiles dans cette ville
                 </p>
             </div>
-            <br/>
             <div id="body-hosting" class="df">
                 <section id="body-hosting-marseille" class="bloc df fd-c body-hosting">
-                    <div class="bold" >Hébergements à Marseille<br/></div>
+                    <h2>Hébergements à Marseille</h2>
                     <div>
                         <div class="df">
                             <div>
@@ -154,9 +161,9 @@
                         </p>
                     </div>    
                 </section>
-                <section id="body-hosting-popular" class="bloc df fd-c body-hosting">
+                <section id="body-hosting-popular" class="bloc df body-hosting">
                     <div class="df jc-sb">
-                        <span class="bold">Les plus populaires</span>
+                        <h2>Les plus populaires</h2>
                         <span><i class="fas fa-chart-line"></i></span>
                     </div>
                     <div id="body-hosting-popular-results">
@@ -199,12 +206,10 @@
                     </div>
                 </section>
             </div>
-            <br/>
-
             
             <div id="body-activity" class="df fd-c">
-                <span id="activities-title" class="bold">Activités à Marseille</span>
-                <div class="df">
+                <h1 id="activities-title">Activités à Marseille</h1>
+                <div id="activity-activities" class="df">
 
 
 

@@ -11,6 +11,11 @@ body {
     font-weight: normal;
 }
 
+h1, h2 {
+    margin: 0px;
+    font-size: 1em;
+}
+
 .container {
     max-width: 1440px;
     width: 100%;
@@ -23,12 +28,7 @@ body {
     background-color: #F2F2F2;
 }
 
-
 /* HEADER */
-#logo-reservia {
-   margin-left: 2em;
-}
-
 #menu {
     width: 100%;
     max-width: 440px;
@@ -116,6 +116,7 @@ body {
 }
 
 #body-hosting-popular {
+    flex-direction: column;
     width: 21%; 
     padding-right: 2em;
     padding-left: 2em;
@@ -297,7 +298,8 @@ body {
 }
 
 #activities-title {
-    padding: 1em;
+    padding-top: 2em;
+    padding-left: 1em;
 }
 
 /* LOGOS */
