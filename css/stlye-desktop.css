@@ -25,6 +25,10 @@ body {
 
 
 /* HEADER */
+#logo-reservia {
+   margin-left: 2em;
+}
+
 #menu {
     width: 100%;
     max-width: 440px;
@@ -63,6 +67,10 @@ body {
     margin: auto;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+#first-bloc p  {
+    line-height: 1.5em;
 }
 
 #body-search-btn {
@@ -211,11 +219,13 @@ body {
 .activities {
     margin: 1em;
     height: 500px;
-    background-color: #F2F2F2;
+    background-color:white;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 5px #F2F2F2;
+
 }
 
 .activities-double {
@@ -254,12 +264,13 @@ body {
 }
 
 .activities-thumbnail-little {
-    background-color: #F2F2F2;
+    background-color: white;
     padding-bottom: 1em;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 5px #F2F2F2;
 }
 
 .activities-thumbnail-little-photo {
