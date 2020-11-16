@@ -344,10 +344,11 @@ h1, h2 {
 /* FOOTER */ 
 
 #footer {
-    padding-left: 50px;
-    padding-right: 360px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    margin: auto;
+    width: 100%;
 }
 
 #footer ul {

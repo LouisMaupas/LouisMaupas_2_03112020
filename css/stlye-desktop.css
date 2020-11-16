@@ -333,6 +333,8 @@ h1, h2 {
     padding-right: 360px;
     padding-top: 50px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #footer ul {
