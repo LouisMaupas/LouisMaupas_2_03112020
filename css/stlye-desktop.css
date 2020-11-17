@@ -29,6 +29,10 @@ h1, h2 {
 }
 
 /* HEADER */
+#header {
+    margin-left: 2em;
+}
+
 #menu {
     width: 100%;
     max-width: 440px;

@@ -115,7 +115,13 @@ h1, h2 {
 #body-hosting-marseille {
     width: auto; 
     margin: auto;
+    padding: 1em;
 }
+
+#body-hosting-marseille-one, #body-hosting-marseille-two {
+    flex-wrap: wrap;
+} 
+
 
 #body-hosting-popular {
     width: auto; 
@@ -124,6 +130,7 @@ h1, h2 {
     padding: 1em;
     margin-top: 1em;
     height: auto;
+    flex-direction: column;
   }
 
 
@@ -166,6 +173,7 @@ h1, h2 {
 #body-hosting-popular-results {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .popular-thumbnail {
@@ -335,10 +343,12 @@ h1, h2 {
 /* FOOTER */ 
 
 #footer {
-    padding-left: 50px;
-    padding-right: 360px;
+    padding-left: auto;
+    padding-right: auto;
     padding-top: 50px;
     padding-bottom: 20px;
+    margin-right: 1em;
+    text-align: center;
 }
 
 #footer ul {
