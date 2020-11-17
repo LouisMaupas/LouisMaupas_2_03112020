@@ -220,11 +220,9 @@ h1, h2 {
 /* activités à Marseille */
 
 #body-activity {
-    width: auto;
-    margin: auto;
-    padding: 1em;
+    max-width: ;width: 700px; 
     flex-wrap: wrap;
-
+    margin: auto;
 }
 
 .activities {
@@ -313,6 +311,7 @@ h1, h2 {
 }
 
 #activity-activities {
+    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -347,7 +346,7 @@ h1, h2 {
     padding-right: auto;
     padding-top: 50px;
     padding-bottom: 20px;
-    margin-right: 1em;
+    margin: 1em;
     text-align: center;
 }
 
