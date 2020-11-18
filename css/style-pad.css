@@ -12,6 +12,10 @@ body {
     font-weight: normal;
 }
 
+.fs-small {
+    font-size: small;
+}
+
 h1, h2 {
     margin: 0px;
     font-size: 1em;

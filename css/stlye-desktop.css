@@ -11,6 +11,10 @@ body {
     font-weight: normal;
 }
 
+.fs-small {
+    font-size: small;
+}
+
 h1, h2 {
     margin: 0px;
     font-size: 1em;
@@ -153,6 +157,10 @@ h1, h2 {
     border-width: 1em; 
 }
 
+.hosting-thumbnail-details {
+    margin-top: 0.25em;
+}
+
 .hosting-thumbnail-text {
     padding-left: 1em;
 }
@@ -161,6 +169,7 @@ h1, h2 {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding: 1px;
+    margin-bottom: 0.2em;
     width: 260px;
     height: 100px;
     object-fit: cover;
@@ -428,6 +437,10 @@ h1, h2 {
 
 .as-e {
     align-self: flex-end;
+}
+
+.as-s {
+    align-self: stretch;
 }
 
 

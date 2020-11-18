@@ -12,45 +12,39 @@ body {
     font-weight: normal;
 }
 
+.fs-small {
+    font-size: small;
+}
+
 h1, h2 {
     margin: 0px;
     font-size: 1em;
 }
 
 .container {
-    max-width: 1440px;
+    width: 350px;
     width: 100%;
     margin: auto;
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.bloc {
-    background-color: #F2F2F2;
-}
 
 
 /* HEADER */
 
-#logo-reservia {
-   margin-left: 2em;
-}
-
 #menu {
-    background-color: salmon;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    max-width: 440px;
-    margin-left: auto;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 #menu :nth-child(3) {
-    background-color: seagreen;
+
 }
 
 #menu :nth-child(1), #menu :nth-child(2) {
-    background-color: red;
+
 }
 
 #menu a {
@@ -107,6 +101,14 @@ h1, h2 {
     background-color: #064db8;
 }
 
+#filtres {
+    flex-direction: column;
+}
+
+#filtres-title {
+    align-self: start;
+}
+
 .filter {
     border: solid;
     border-radius: 3em;
@@ -121,7 +123,7 @@ h1, h2 {
 }
 
 #body-hosting {
-    padding-right: 2em;
+    width: 100%;
 }
   
 #body-hosting-marseille {
@@ -133,18 +135,13 @@ h1, h2 {
 }
 
 #body-hosting-popular {
-    width: 21%; 
-    padding-right: 2em;
-    padding-left: 2em;
-    margin-left: auto;
-    margin-right: 2em;
+    margin: auto;
   }
 
 
 .body-hosting {
     border-radius: 1em;
     padding-top: 2em;
-    height: 525px;
 }
 
 .body-hosting a {
@@ -181,6 +178,11 @@ h1, h2 {
 #body-hosting-popular-results {
     display: flex;
     flex-direction: column;
+}
+
+.body-hosting-popular-results-bloc {
+    width: 100%;
+    background-color: tomato;
 }
 
 .popular-thumbnail {
@@ -345,17 +347,24 @@ h1, h2 {
 /* FOOTER */ 
 
 #footer {
-    padding-left: 40px;
-    padding-top: 30px;
-    padding-bottom: 1px;
-    margin: auto;
+    background-color: #F2F2F2;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
+    margin-left: auto;
 }
+
+.footer-title {
+    padding-left: 2em;
+}
+
 
 #footer ul {
     list-style:none;
-    margin-left:0;
-    padding-left:0;
+    padding: auto;
+    min-width: 350px;
 }
 
 #footer ul li {
