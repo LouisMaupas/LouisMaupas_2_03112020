@@ -1,7 +1,7 @@
 /* GENERAL */
 body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 255, 0.13);
+   /* background-color: rgba(0, 0, 255, 0.13);*/
 }
 
 .bold {
@@ -357,6 +357,10 @@ h1, h2 {
     border-radius: 50%;
     height: 35px;
     width: 35px;
+}
+
+#body-hosting-popular-logo {
+    margin-left: 1em;
 }
 
 /* FOOTER */ 

@@ -4,14 +4,16 @@
     <script src="https://kit.fontawesome.com/9405848609.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./css/stlye-desktop.css">
-    <link rel="stylesheet" media="screen and (min-width: 420px) and (max-width: 1399px)" href="./css/style-pad.css" /> 
-    <link rel="stylesheet" media="screen and (max-width: 705px)" href="./css/style-phone.css" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stlye-desktop.css">
     <title>Reservia</title>
 </head>
 <body>
 
     <div class="container">
+
+
 
         <div id="header" class="df">
             <div>
@@ -24,59 +26,83 @@
             </nav>
         </div>
 
+        <div id="header-mobile" class="df">
+            <div class="df jc-sb ai-c">
+                <img src="Ressources/logo/Reservia.svg" alt="logo reservia" />
+                <div><a href="#"><span id="register">S'inscrire</span></a></div>
+            </div>
+            <nav id="menu-mobile" class="df jc-se">
+                <div class="menu-mobile-items">
+                    <a href="#body-hosting">Hégergements</a>
+                </div>
+                <div class="menu-mobile-items">
+                    <a href="#body-activity">Activités</a>
+                </div>                
+            </nav>
+        </div>
+
+
+
 
         <div id="body">
+
+
+
             <div id="first-bloc">
-                <p>
-                    <span class="bold">Trouver votre hébergement pour des vacances de rêve</span><br/>
-                    En plein centre ville ou en pleine nature
-                </p>
+
+                    <p>
+                        <span class="bold">Trouver votre hébergement pour des vacances de rêve</span><br/>
+                        En plein centre ville ou en pleine nature
+                    </p>
                 <div class="df">
                     <div class="df"><div id="logo-gps"><span><i id="logo-gps-pos" class="fas fa-map-marker-alt"></i></span></div></div>
                     <input type="search" name="search" id="search" value="Marseille, France" />
                     <div id="body-search-btn">Rechercher</div>
-                    </div> 
-
+                </div> 
                 <div id="filtres" class="df">
                     <span id="filtres-title" class="bold as-c">Filtres</span>
                     <div class="df">
-                        <div class="filter df" >
+                        <div class="filter df ai-c" >
                             <div class="filter-logo-circle">
                                 <span style="color: #0065FC;"><i class="fas fa-money-bill-wave"></i></span>
                             </div>
-                            <span class="bold">Economique</span>
+                            <span class="filter-text">Economique</span>
                         </div> 
-                        <div class="filter df" >
+                        <div class="filter df ai-c" >
                             <div class="filter-logo-circle">
                                 <span style="color: #0065FC;"><i class="fas fa-child"></i></span>
                             </div>
-                            <span class="bold">Familial</span>
+                            <span class="filter-text">Familial</span>
                         </div> 
                     </div>
-                   
-                    <div class="filter df" >
+                    <div class="filter df ai-c" >
                         <div class="filter-logo-circle">
                             <span style="color: #0065FC;"><i class="fas fa-heart"></i></span>
                         </div>
-                        <span class="bold">Romantique</span>
+                        <span class="filter-text">Romantique</span>
                     </div>
-                    
-                    
-                    <div class="filter df" >
+                    <div class="filter df ai-c" >
                             <span class="filter-logo-circle" style="color: #0065FC;"><i class="fas fa-dog"></i></span>
-                        <span class="bold">Animaux autorisés</span>
+                        <span class="filter-text">Animaux autorisés</span>
                         </div> 
                     </div> 
-
-
                 <p>
                     <span style="color: #0065FC; margin-right: 1em;"><i class="fas fa-info-circle"></i></span>Plus de 500 logements sont disponbiles dans cette ville
                 </p>
             </div>
+
+
+
+
+
+
             <div id="body-hosting" class="df">
-                <section id="body-hosting-marseille" class="bloc df fd-c body-hosting">
+
+
+                <section id="body-hosting-marseille" class="bloc">
+                    
                     <h2>Hébergements à Marseille</h2>
-                    <div>
+                    <div id="body-hosting-marseille-one-and-two">
                         <div id="body-hosting-marseille-one" class="df">
                             <div>
                                 <a target="_blank" href="Ressources/hebergements/cannebiere.jpg">
@@ -159,9 +185,9 @@
                     </div>    
                 </section>
                 <section id="body-hosting-popular" class="bloc df body-hosting">
-                    <div class="df jc-sb">
+                    <div class="df jc-se">
                         <h2>Les plus populaires</h2>
-                        <span><i class="fas fa-chart-line"></i></span>
+                        <div id="body-hosting-popular-logo"><i class="fas fa-chart-line"></i></div>
                     </div>
                     <div id="body-hosting-popular-results">
                         <div class="body-hosting-popular-results-bloc">
@@ -203,13 +229,9 @@
                     </div>
                 </section>
             </div>
-            
             <div id="body-activity" class="df fd-c">
                 <h1 id="activities-title">Activités à Marseille</h1>
                 <div id="activity-activities" class="df">
-
-
-
 
                     <div  class="activities">
                         <a target="_blank" href="Ressources/activites/vieux-port.jpg">
@@ -219,9 +241,6 @@
                         </div>
                         </a>
                     </div>
-
-
-
                     <div class="activities-double df fd-c jc-sb">
                         <div>
                             <a target="_blank" href="Ressources/activites/pomegues.jpg">
@@ -242,9 +261,6 @@
                         </div>
 
                     </div>
-
-
-                    
                     <div  class="activities">
                         <a target="_blank" href="Ressources/activites/calanques.jpg">
                         <div class="activities-thumbnail-big">
@@ -253,8 +269,6 @@
                         </div>
                         </a>
                     </div>
-
-
                     <div class="activities-double df fd-c jc-sb">
                         <div>
                             <a target="_blank" href="Ressources/activites/garde.jpg">
@@ -273,7 +287,6 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
