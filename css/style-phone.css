@@ -162,6 +162,10 @@ h1, h2 {
     border-width: 1em; 
 }
 
+.hosting-thumbnail-details {
+    margin-top: 0.25em;
+}
+
 .hosting-thumbnail-text {
     padding-left: 1em;
 }
@@ -173,6 +177,7 @@ h1, h2 {
     width: 260px;
     height: 100px;
     object-fit: cover;
+    margin-bottom: 0.2em;
 }
 
 #body-hosting-popular-results {
