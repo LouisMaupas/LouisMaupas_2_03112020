@@ -114,8 +114,7 @@ h1, h2 {
 }
 
 #body-hosting {
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
   
 #body-hosting-marseille {
@@ -336,21 +335,6 @@ h1, h2 {
 }
 
 /* LOGOS */
-
-
-#logo-gps {
-    background-color: #F2F2F2;
-    width: 30px; 
-    height: 31px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 3px;
-}
-
-#logo-gps-pos {
-    padding-left: 30%;
-    padding-top: 25%;
-}
 
 .filter-logo-circle {
     background-color: #DEEBFF ;

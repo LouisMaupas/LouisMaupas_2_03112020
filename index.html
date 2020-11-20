@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/stlye-desktop.css">
+    <link rel="stylesheet" href="./css/stlye.css">
     <title>Reservia</title>
 </head>
 <body>
 
     <div class="container">
-
-
-
         <div id="header" class="df">
             <div>
                 <img src="Ressources/logo/Reservia.svg" alt="logo reservia" />
@@ -27,9 +24,9 @@
         </div>
 
         <div id="header-mobile" class="df">
-            <div class="df jc-sb ai-c">
+            <div class="df jc-sa ai-c">
                 <img src="Ressources/logo/Reservia.svg" alt="logo reservia" />
-                <div><a href="#"><span id="register">S'inscrire</span></a></div>
+                <div id="register-parent"><a href="#"><span id="register">S'inscrire</span></a></div>
             </div>
             <nav id="menu-mobile" class="df jc-se">
                 <div class="menu-mobile-items">
@@ -40,27 +37,28 @@
                 </div>                
             </nav>
         </div>
-
-
-
-
         <div id="body">
 
 
 
             <div id="first-bloc">
-
                     <p>
-                        <span class="bold">Trouver votre hébergement pour des vacances de rêve</span><br/>
-                        En plein centre ville ou en pleine nature
-                    </p>
+                        <span class="bold">Trouver votre hébergement pour des vacances de rêve</span>
+                        <br/>
+                        <span class="classic">En plein centre ville ou en pleine nature</span>  
+                    </p>        
                 <div class="df">
                     <div class="df"><div id="logo-gps"><span><i id="logo-gps-pos" class="fas fa-map-marker-alt"></i></span></div></div>
                     <input type="search" name="search" id="search" value="Marseille, France" />
+                    <div id="body-search-btn-mobile">
+                        <span style="color: #FFFFFF;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
                     <div id="body-search-btn">Rechercher</div>
                 </div> 
                 <div id="filtres" class="df">
-                    <span id="filtres-title" class="bold as-c">Filtres</span>
+                    <span id="filtres-title" class="bold">Filtres</span>
                     <div class="df">
                         <div class="filter df ai-c" >
                             <div class="filter-logo-circle">
@@ -134,7 +132,7 @@
                                         <img class="hosting-thumbnail-photo" src="./Ressources/hebergements/mouettes.jpg" alt="photo de la chambre 3" title="Cliquez pour agrandir l'image" />                                    
                                         <div class="hosting-thumbnail-text">
                                             <div class="hosting-thumbnail-details bold">Hôtel Les mouettes</div>
-                                            <div class="hosting-thumbnail-detailsthin fs-small">Nuit à partir de 76€</div>
+                                            <div class="hosting-thumbnail-details thin fs-small">Nuit à partir de 76€</div>
                                             <div class="hosting-thumbnail-details" style="color: #0065FC;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                                         </div>
                                     </div>
@@ -242,7 +240,7 @@
                         </a>
                     </div>
                     <div class="activities-double df fd-c jc-sb">
-                        <div>
+                        <div class="thumbnail-mobile">
                             <a target="_blank" href="Ressources/activites/pomegues.jpg">
                                 <div class="activities-thumbnail-little">
                                     <img class="activities-thumbnail-little-photo activities-thumbnail-little-photo-one" src="./Ressources/activites/pomegues.jpg" alt="photo de l'activité 2" title="Cliquez pour agrandir l'image" />
@@ -251,7 +249,7 @@
                             </a>
                         </div>
                         
-                        <div>
+                        <div class="thumbnail-mobile">
                             <a target="_blank" href="Ressources/activites/frioul.jpg">
                                 <div class="activities-thumbnail-little">
                                     <img class="activities-thumbnail-little-photo activities-thumbnail-little-photo-two" src="./Ressources/activites/frioul.jpg" alt="photo de l'activité 2" title="Cliquez pour agrandir l'image" />
@@ -261,7 +259,7 @@
                         </div>
 
                     </div>
-                    <div  class="activities">
+                    <div class="activities">
                         <a target="_blank" href="Ressources/activites/calanques.jpg">
                         <div class="activities-thumbnail-big">
                             <img class="activities-thumbnail-big-photo" src="./Ressources/activites/calanques.jpg" alt="photo de l'activité 1" title="Cliquez pour agrandir l'image" />
@@ -270,7 +268,7 @@
                         </a>
                     </div>
                     <div class="activities-double df fd-c jc-sb">
-                        <div>
+                        <div class="thumbnail-mobile">
                             <a target="_blank" href="Ressources/activites/garde.jpg">
                                 <div class="activities-thumbnail-little">
                                     <img class="activities-thumbnail-little-photo activities-thumbnail-little-photo-three" src="./Ressources/activites/garde.jpg" alt="photo de l'activité 2" title="Cliquez pour agrandir l'image" />
@@ -278,7 +276,7 @@
                                 </div>
                             </a>  
                         </div>
-                        <div>
+                        <div class="thumbnail-mobile">
                             <a target="_blank" href="Ressources/activites/longchamp.jpg">
                                 <div class="activities-thumbnail-little">
                                     <img class="activities-thumbnail-little-photo activities-thumbnail-little-photo-four" src="./Ressources/activites/longchamp.jpg" alt="photo de l'activité 2" title="Cliquez pour agrandir l'image" />
