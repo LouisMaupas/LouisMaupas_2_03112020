@@ -25,7 +25,7 @@ h1, h2 {
     width: 100%;
 }
 
-.bloc, .bloc-marseille {
+.bloc {
     background-color: #F2F2F2;
 }
 
@@ -500,14 +500,15 @@ h1, h2 {
     }
 
     .hosting-thumbnail {
-        height: 230px;
+        height: 250px;
         width: 400px;
-        background-color:white;
+
         border-top-right-radius: 50px;
         border-top-left-radius: 50px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
         box-shadow: 1px 1px 5px #F2F2F2;
+        margin: 1em;
     }
 
     .hosting-thumbnail-details {
@@ -627,6 +628,10 @@ h1, h2 {
     #body-hosting {
         flex-direction: column; 
         padding-right: 2em; 
+    }
+
+    .bloc-marseille {
+        background-color: #F2F2F2;
     }
     
     #body-hosting-marseille {
@@ -837,6 +842,10 @@ h1, h2 {
     #body-hosting-marseille a {
         text-decoration: none;
         color: black;
+    }
+
+    .bloc-marseille {
+    background-color: #F2F2F2;
     }
 
     #body-hosting-popular {
