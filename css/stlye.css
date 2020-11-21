@@ -89,6 +89,7 @@ h1, h2 {
     line-height: 1.5em;
 }
 
+
 #body-search-btn {
     background-color: #0065FC;
     color: white;
@@ -128,10 +129,14 @@ h1, h2 {
     padding-right: 2em;
 }
 
-
 .body-hosting {
     padding-top: 2em;
     height: 525px;
+}
+
+.hosting-thumbnail-text {
+    padding-left: 1em;
+    color: black;
 }
 
 #body-hosting-popular {
@@ -202,6 +207,7 @@ h1, h2 {
 /* activités à Marseille */
 
 #body-activity {
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -435,10 +441,6 @@ h1, h2 {
     #filtres {
         flex-direction: column;
     }
-    
-    #filtres-title {
-        align-content: center;
-    }
 
     #body-hosting {
         flex-direction: column;
@@ -476,10 +478,6 @@ h1, h2 {
 
     .hosting-thumbnail-details {
         margin-top: 0.25em;
-    }
-
-    .hosting-thumbnail-text {
-        padding-left: 1em;
     }
 
     .hosting-thumbnail-photo {
@@ -552,12 +550,23 @@ h1, h2 {
 }
 
 /* PAD */
-@media (min-width:706px) and (max-width: 1023px){
+@media (min-width:706px) and (max-width: 1414px){
     #header {
         display: none;
     }
     #header-mobile {
         display: initial;
+    }
+
+    .menu-mobile-items a {
+        text-decoration: none;
+    }
+    
+    #filtres {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1em;
     }
 
     #body-search-btn {
@@ -596,6 +605,9 @@ h1, h2 {
         align-items: center;
     }
 
+    #body-hosting-popular-logo {
+        margin-left: 1em;
+    }
     
     .hosting-thumbnail {
         background-color: white;
@@ -612,10 +624,6 @@ h1, h2 {
 
     .hosting-thumbnail-details {
         margin-top: 0.25em;
-    }
-
-    .hosting-thumbnail-text {
-        padding-left: 1em;
     }
 
     .hosting-thumbnail-photo {
@@ -669,48 +677,45 @@ h1, h2 {
         object-fit: cover;
     }
 
-    
-.activities-thumbnail-little {
-    background-color: white;
-    padding-bottom: 1em;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 5px #F2F2F2;
-}
+        
+    .activities-thumbnail-little {
+        background-color: white;
+        padding-bottom: 1em;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 1px 1px 5px #F2F2F2;
+    }
 
-.activities-thumbnail-little-photo {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    width: 300px;
-    object-fit: cover;
-}
+    .activities-thumbnail-little-photo {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 300px;
+        object-fit: cover;
+    }
 
-.activities-thumbnail-little-photo-one {
-    height: 200px;
-}
+    .activities-thumbnail-little-photo-one {
+        height: 200px;
+    }
 
-.activities-thumbnail-little-photo-two {
-    height: 150px;
-}
+    .activities-thumbnail-little-photo-two {
+        height: 150px;
+    }
 
-.activities-thumbnail-little-photo-three {
-    height: 180px;
-}
+    .activities-thumbnail-little-photo-three {
+        height: 180px;
+    }
 
-.activities-thumbnail-little-photo-four {
-    height: 180px;
-}
+    .activities-thumbnail-little-photo-four {
+        height: 180px;
+    }
 
 
     .activities-double {
         margin: 1em;
         height: 500px;
     }
-
-}
-
 
     .activities-thumbnail-big-photo {
         border-top-right-radius: 20px;
@@ -729,7 +734,7 @@ h1, h2 {
         margin-top: 1em;
         text-align: center;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 1em;
         display: flex;
         justify-content: space-between;
     }
@@ -747,23 +752,20 @@ h1, h2 {
 }
 
 /* Desktop */
-@media (min-width: 1024px){
+@media (min-width: 1415px){
     #body-hosting-marseille {
         border-radius: 1em;
         padding-top: 2em;
         height: 525px;
     } 
 
-    #body-hosting-marseille {
-
+    
+    #filtres {
+        align-items: center;
     }
 
     #body-search-btn-mobile {
         display: none;
-    }
-
-    #filtres-title {
-        align-content: center;
     }
 
     #body-search-btn {
@@ -804,10 +806,6 @@ h1, h2 {
         margin-top: 0.25em;
     }
 
-    .hosting-thumbnail-text {
-        padding-left: 1em;
-    }
-
     .hosting-thumbnail-photo {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
@@ -842,45 +840,44 @@ h1, h2 {
         height: 450px;
         object-fit: cover;
     }
-
-    
-.activities-thumbnail-little {
-    background-color: white;
-    padding-bottom: 1em;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 5px #F2F2F2;
-}
-
-.activities-thumbnail-little-photo {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    width: 300px;
-    object-fit: cover;
-}
-
-.activities-thumbnail-little-photo-one {
-    height: 200px;
-}
-
-.activities-thumbnail-little-photo-two {
-    height: 150px;
-}
-
-.activities-thumbnail-little-photo-three {
-    height: 180px;
-}
-
-.activities-thumbnail-little-photo-four {
-    height: 180px;
-}
-
-
-    .activities-double {
-        margin: 1em;
-        height: 500px;
+     
+    .activities-thumbnail-little {
+        background-color: white;
+        padding-bottom: 1em;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 1px 1px 5px #F2F2F2;
     }
 
-}
+    .activities-thumbnail-little-photo {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .activities-thumbnail-little-photo-one {
+        height: 200px;
+    }
+
+    .activities-thumbnail-little-photo-two {
+        height: 150px;
+    }
+
+    .activities-thumbnail-little-photo-three {
+        height: 180px;
+    }
+
+    .activities-thumbnail-little-photo-four {
+        height: 180px;
+    }
+
+
+        .activities-double {
+            margin: 1em;
+            height: 500px;
+        }
+
+    }
