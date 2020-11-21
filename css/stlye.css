@@ -382,6 +382,9 @@ h1, h2 {
 
 /* MOBILE*/ 
 @media (max-width: 705px){
+    body {
+        background-color: black;
+    }
     #header {
         display: none;
     }
@@ -560,6 +563,7 @@ h1, h2 {
 
     .menu-mobile-items a {
         text-decoration: none;
+        color: black;
     }
     
     #filtres {
@@ -650,6 +654,7 @@ h1, h2 {
     #activity-activities {
         margin: auto;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     #activities-title {
