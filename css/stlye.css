@@ -114,6 +114,10 @@ h1, h2 {
     margin: 0.5em;
 }
 
+#filtres .df .ai-c {
+    width: auto;
+}
+
 .filter-text {
     font-weight: bold;
     margin-right: 1em;
@@ -382,9 +386,6 @@ h1, h2 {
 
 /* MOBILE*/ 
 @media (max-width: 705px){
-    body {
-        background-color: black;
-    }
     #header {
         display: none;
     }
@@ -429,20 +430,28 @@ h1, h2 {
         text-decoration: black;
     }
 
-    #fist-bloc p .bold {
-        text-align: center;
-        font-size: larger;
-        background-color: red;
-        color: red;
+    #first-bloc-text .bold {
+        font-size: x-large;
     }
 
-    #fist-bloc p:last-child {
-        text-align: center;
-        font-size: small;
+    #searcher {
+        margin: 1.5em auto;
+        width: 300px;
     }
+
 
     #filtres {
         flex-direction: column;
+    }
+
+    #filter-solo-one {
+        color: red;
+        width: 160px;
+    }
+
+    #filter-solo-two {
+        color: blue;
+        width: 205px;
     }
 
     #body-hosting {
@@ -554,6 +563,9 @@ h1, h2 {
 
 /* PAD */
 @media (min-width:706px) and (max-width: 1414px){
+    body {
+        background-color: black;
+    }
     #header {
         display: none;
     }
