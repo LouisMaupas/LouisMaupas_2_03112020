@@ -475,10 +475,16 @@ h1, h2 {
         padding: 0;
 
     }
-    
+
+    #body-hosting-marseille h2 {
+        padding-left: 1em;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    /*
     #body-hosting-marseille-one-and-two {
         flex-direction: column;
-    }
+    }*/
 
     #body-hosting-marseille-one, #body-hosting-marseille-two {
         flex-direction: column;
@@ -523,11 +529,17 @@ h1, h2 {
         object-fit: cover;
     }
 
+    .show-more {
+        font-size: x-large;
+        padding: 1em;
+    }
+
     #activities-title {
         font-size: x-large;
         font-weight: bold;
         margin-top: 1em;
         margin-bottom: 1em;
+        
     }
 
     #activity-activities {
@@ -822,7 +834,7 @@ h1, h2 {
         height: 525px;
     } 
 
-    
+
     #filtres {
         align-items: center;
     }
