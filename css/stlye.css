@@ -898,6 +898,11 @@ h1, h2 {
         margin-right: 2em;
     }
 
+    
+    #body-hosting-popular-logo {
+        margin-left: 8em;
+    }
+
     .body-hosting {
         border-radius: 1em;
         padding-top: 2em;
