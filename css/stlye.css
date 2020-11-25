@@ -886,6 +886,11 @@ h1, h2 {
         margin: 2em;
     }
 
+    #first-bloc-last-part-text {
+        display: flex;
+        align-items: center;
+    }
+
     #filtres {
         align-items: center;
     }
@@ -921,7 +926,6 @@ h1, h2 {
         padding-left: 2em;
         margin-right: 2em;
     }
-
     
     #body-hosting-popular-logo {
         margin-left: 8em;
@@ -965,7 +969,6 @@ h1, h2 {
         padding-left: 1em;
     }
 
-    
     .activities {
         margin: 1em;
         height: 500px;
