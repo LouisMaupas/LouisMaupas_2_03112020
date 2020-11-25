@@ -497,8 +497,8 @@ h1, h2 {
 
     #body-hosting-marseille {
         order: 2;
-        margin: 0;
         padding: 0;
+        margin: auto;
 
     }
 
