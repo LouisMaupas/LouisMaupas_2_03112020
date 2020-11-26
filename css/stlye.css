@@ -150,7 +150,6 @@ h1, h2 {
 #body-hosting-marseille {
     padding-right: 5em;
     padding-left: 2em;
-    margin-left: 2em;
     margin-right: auto;
 }
 
@@ -871,6 +870,7 @@ h1, h2 {
     }
 
     #body-hosting-marseille {
+        margin-left: 2em;
         width: 60%;
         border-radius: 1em;
         padding-top: 2em;
