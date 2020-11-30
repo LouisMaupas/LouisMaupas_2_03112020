@@ -143,6 +143,10 @@ h1, h2 {
     color: black;
 }
 
+.hosting-thumbnail:hover {
+    transform: scale(1.10);
+}
+
 #body-hosting-popular {
     flex-direction: column;
 }
@@ -174,6 +178,10 @@ h1, h2 {
     border-width: 1em; 
     padding-top: 3px;
     padding-left: 3px;
+}
+
+.popular-thumbnail:hover {
+    transform: scale(1.10);
 }
 
 .popular-thumbnail:nth-child(1) {
@@ -223,6 +231,14 @@ h1, h2 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.activities:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail-mobile:hover {
+    transform: scale(1.10);
 }
 
 .activity {
