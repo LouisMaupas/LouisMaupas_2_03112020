@@ -75,7 +75,6 @@ h1, h2 {
 }
 
 /* BODY */
-
 #first-bloc {
     margin: auto;
 }
@@ -213,7 +212,6 @@ h1, h2 {
 }
 
 /* activités à Marseille */
-
 #body-activity {
     align-items: center;
     margin-left: auto;
@@ -259,7 +257,6 @@ h1, h2 {
 
 /* LOGOS */
 
-
 #logo-gps {
     background-color: #F2F2F2;
     width: 30px; 
@@ -285,6 +282,21 @@ h1, h2 {
     margin-right: 0.5em;
 }
 
+.blue {
+    color: #0065FC;
+}
+
+.FFFFFF {
+    color: #FFFFFF;
+}
+
+.afb8c7 {
+    color: #afb8c7;
+}
+
+. i-logo {
+    margin-right: 1em;
+}
 
 
 /* FOOTER */ 
