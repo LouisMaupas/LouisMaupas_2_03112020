@@ -403,7 +403,9 @@ h1, h2 {
 /* MOBILE*/ 
 @media (max-width: 705px){
     .container {
-        margin-left: auto;
+        width: 344px;
+        margin: 0;
+        margin-left: 1em;
         margin-right: auto;
     }
     /*HEADER */
@@ -532,7 +534,6 @@ h1, h2 {
     }
 
     #body-hosting-marseille h2 {
-        padding-left: 1em;
         font-weight: bold;
         font-size: x-large;
     }
@@ -559,7 +560,7 @@ h1, h2 {
 
     .hosting-thumbnail {
         height: 260px;
-        width: 340px;
+        width: 330px;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -581,7 +582,7 @@ h1, h2 {
     .hosting-thumbnail-photo {
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
-        width: 330px;
+        width: 320px;
         height: 170px;
         object-fit: cover;
         margin-left: auto;
@@ -611,7 +612,7 @@ h1, h2 {
     
     .activities-thumbnail-big {
         height: 230px;
-        width: 340px;
+        width: 330px;
         background-color:white;
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
@@ -623,7 +624,7 @@ h1, h2 {
     .activities-thumbnail-big-photo {
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
-        width: 340px;
+        width: 330px;
         height: 180px;
         object-fit: cover;
     }
@@ -642,7 +643,7 @@ h1, h2 {
     .activities-thumbnail-little-photo {
         border-top-right-radius: 30px;
         border-top-left-radius: 30px;
-        width: 340px;
+        width: 330px;
         height: 180px;
         object-fit: cover;
     }
