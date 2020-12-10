@@ -403,9 +403,9 @@ h1, h2 {
 /* MOBILE*/ 
 @media (max-width: 705px){
     .container {
-        width: auto;
-        margin-right: auto;
+        border: 1px red solid;
         margin-left: auto;
+        margin-right: auto;
     }
     /*HEADER */
     .menu-one {
