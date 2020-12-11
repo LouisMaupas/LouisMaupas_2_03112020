@@ -408,57 +408,38 @@ h1, h2 {
     }
     /*HEADER */
 
-    /*
-    .menu-one {
-        display: flex;
-        width: 80%;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .menu-one div:nth-child(2) {
-        margin-left: auto;
-    }
-
-    #menu {
-        display: flex;
-        width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #menu a:nth-child(2){
-        margin-left: auto;
-    }*/
-
     #header {
         display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 4em;
     }
 
     #menu {
-        width: 70%;
-    }
-
-    #menu a:nth-child(1){
         display: flex;
-        align-items: center;
-        justify-content: flex-end
+        flex-direction: column;
     }
 
-    #header img {
+    #menu > a {
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .menu-anchor {
+        position: relative;
+        top: 40px;
+    }
+
+    .menu-anchor a:nth-child(1) {
+        position: relative;
+        right: 100px;
+    }
+
+    .menu-anchor a:nth-child(2) {
+        position: relative;
+        left: -50px;
         
     }
-
-    #menu a:nth-child(2){
-
-    }
-
-    #menu a:nth-child(3){
-
-    }
-
-
+           
 
     #body {
         margin-top: 1.5em;
@@ -706,8 +687,13 @@ h1, h2 {
         align-self: center;
     }
 
-    #menu a:nth-child(1){
+    #menu > a{
         order: 1;
+    }
+
+    .menu-anchor {
+        display: flex;
+        align-items: center;
     }
 
 
@@ -947,8 +933,13 @@ h1, h2 {
         align-self: center;
     }
 
-    #menu a:nth-child(1){
+    #menu > a{
         order: 1;
+    }
+
+    .menu-anchor {
+        display: flex;
+        align-items: center;
     }
 
 
