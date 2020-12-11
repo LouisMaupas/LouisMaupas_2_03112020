@@ -34,17 +34,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: black;
-    border-top: 3px solid white;
     font-weight: bold;
-    padding-top: 10px;
-}
-
-#register a {
-    text-decoration: none;
-    color: black;
-    border-top: 3px solid white;
-    font-weight: bold;
-    padding-top: 10px;
 }
 
 #menu a:hover {
@@ -422,6 +412,7 @@ h1, h2 {
     #menu > a {
         display: flex;
         align-self: flex-end;
+        margin-top: 1.5em;
     }
 
     .menu-anchor {
@@ -436,10 +427,16 @@ h1, h2 {
 
     .menu-anchor a:nth-child(2) {
         position: relative;
-        left: -50px;
-        
+        left: -50px; 
     }
-           
+          
+    .menu-anchor a {
+        text-decoration: none;
+        color: black;
+        border-bottom: 3px solid white;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
 
     #body {
         margin-top: 1.5em;
@@ -696,8 +693,12 @@ h1, h2 {
         align-items: center;
     }
 
-
     #menu a {
+        text-decoration: none;
+        color: black;
+        border-top: 3px solid white;
+        font-weight: bold;
+        padding-top: 10px;
         margin-left: 2em;
     }
 
@@ -922,6 +923,11 @@ h1, h2 {
     
     #menu a {
         margin-left: 2em;
+        text-decoration: none;
+        color: black;
+        border-top: 3px solid white;
+        font-weight: bold;
+        padding-top: 10px;
     }
 
     #body {
