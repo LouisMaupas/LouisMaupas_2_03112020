@@ -39,7 +39,7 @@ h1, h2 {
     padding-top: 10px;
 }
 
-#register-one a {
+#register a {
     text-decoration: none;
     color: black;
     border-top: 3px solid white;
@@ -52,7 +52,7 @@ h1, h2 {
     color: #0065FC;
 }
 
-#register-one a:hover {
+#register a:hover {
     border-color: #0065FC;
     color: #0065FC;
 }
@@ -407,6 +407,8 @@ h1, h2 {
         margin-right: auto;
     }
     /*HEADER */
+
+    /*
     .menu-one {
         display: flex;
         width: 80%;
@@ -419,10 +421,6 @@ h1, h2 {
         margin-left: auto;
     }
 
-    #register-two {
-        display: none;
-    }
-
     #menu {
         display: flex;
         width: 55%;
@@ -432,7 +430,34 @@ h1, h2 {
 
     #menu a:nth-child(2){
         margin-left: auto;
+    }*/
+
+    #header {
+        display: flex;
     }
+
+    #menu {
+        width: 70%;
+    }
+
+    #menu a:nth-child(1){
+        display: flex;
+        align-items: center;
+        justify-content: flex-end
+    }
+
+    #header img {
+        
+    }
+
+    #menu a:nth-child(2){
+
+    }
+
+    #menu a:nth-child(3){
+
+    }
+
 
 
     #body {
@@ -675,16 +700,19 @@ h1, h2 {
         justify-content: space-between;  
     }
     
+         
     #menu { 
+        display: flex;
         align-self: center;
     }
 
-    #menu a {
-        margin-left: 2em;
+    #menu a:nth-child(1){
+        order: 1;
     }
 
-    #register-one {
-        display: none;
+
+    #menu a {
+        margin-left: 2em;
     }
 
     #first-bloc {
@@ -897,7 +925,6 @@ h1, h2 {
         padding-right: 1em;
     }
 
-    
     header {
         margin-right: 4em;
     }
@@ -907,20 +934,21 @@ h1, h2 {
         justify-content: space-between;  
     }
     
-    #menu { 
-        align-self: center;
-    }
-
     #menu a {
         margin-left: 2em;
     }
 
-    #register-one {
-        display: none;
-    }
-
     #body {
         margin-top: 1.5em;
+    }
+      
+    #menu { 
+        display: flex;
+        align-self: center;
+    }
+
+    #menu a:nth-child(1){
+        order: 1;
     }
 
 
